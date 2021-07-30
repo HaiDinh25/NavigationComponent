@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".fragment.WatchFragment">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonOpenLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Library Fragment" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonOpenNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open News Fragment" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonOpenHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Home Fragment" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonOpenMore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open More Fragment" />
+
+
+    </LinearLayout>
+
+</layout>
